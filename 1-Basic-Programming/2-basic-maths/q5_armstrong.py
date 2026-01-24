@@ -4,14 +4,14 @@ num = n
 sum = 0
 count = 0
 
-while num > 0:
+while num > 0:  # O(k), k is the num of digits
     digit = num % 10
     num = num // 10
     count += 1
 
 num = n
 
-while num > 0:
+while num > 0:  # O(k), k is the num of digits
     digit = num % 10
     num = num // 10
     sum = sum + digit**count
